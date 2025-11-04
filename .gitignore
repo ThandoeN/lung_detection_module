@@ -1,0 +1,28 @@
+# 🧠 Ignore local virtual environments
+venv/
+env/
+.lung_env/
+.lung_env*/
+lung_env/
+lung_env*/
+.venv/
+
+# 🧩 Ignore Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧱 Ignore VS Code settings
+.vscode/
+
+# 🚫 Ignore dependency lists (they can rebuild their own)
+requirements.txt
+
+# 🔒 Ignore environment variables or secrets
+.env
+*.env
+
+# 🧰 Ignore OS-specific junk
+.DS_Store
+Thumbs.db
